@@ -1,0 +1,41 @@
+body{
+    /* background:rgb(252, 184, 184); */
+    background-image: url('https://cdn4.vectorstock.com/i/1000x1000/48/18/red-blue-white-star-sparkles-american-background-vector-23824818.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    text-align:center;
+    width: 100vw;
+    height:100%;
+    margin: 0 0 0 0 !important
+
+}
+#navbar{
+    background: rgb(240, 129, 77)
+
+}
+
+#navbar a{
+    text-decoration: none; 
+}
+
+h1{
+    color:rgb(255, 255, 255)
+}
+
+
+#heading{
+    font-size: 2em;
+}
+
+.red_heading{
+    color:#fafafa;
+}
+
+#hello{
+    font-size: 1em;
+}
+
+#boardwalk{
+    width: 30vw;
+}
