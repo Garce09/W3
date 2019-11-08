@@ -10,8 +10,8 @@ body{
     margin: 0 0 0 0 !important
 
 }
-#navbar{
-    background: rgb(240, 129, 77)
+.navbar{
+    background: rgb(201, 98, 201) !important
 
 }
 
@@ -39,3 +39,19 @@ h1{
 #boardwalk{
     width: 30vw;
 }
+
+/* position: relative positioning means the object being positioned is correspondent to the (normal position) grandparent, parent, or child section {does not move when adjusting screen size}--> */
+    /* DON'T USE NEGATIVE NUMBERS FOR RELATIVE POSITIONING */
+/* position: absolute positioning means the object being positioned is relative to the viewport (aka the size of the entire computer screen) {moves as you adjust screen size}  --> */
+
+/* z-index: the higher the number applied to the element, the higher the priority/forward that element appears on screen
+    controls how forward an element is/the layering order */
+    /* only works for positioned elements */
+
+/* bootstrap 4-CDN (must paste in index.html,in between the two heads, and under link rel="stylesheet"
+CSS=cascading style sheet
+    cascading=waterfall; the code reads it from top of page to bottom, so line order matters */
+
+/* "images/____.jpg" --> Choose your image from the image folder in the left margins */
+
+/* A STUDENT CAN HAVE MULTIPLE CLASSES, BUT A STUDENT CAN ONLY HAVE 1 ID */
