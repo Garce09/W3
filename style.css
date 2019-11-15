@@ -1,26 +1,51 @@
-body{
+html,body{
     /* background:rgb(252, 184, 184); */
     background-image: url('https://cdn4.vectorstock.com/i/1000x1000/48/18/red-blue-white-star-sparkles-american-background-vector-23824818.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 50px;
-    text-align:center;
-    width: 100vw;
+    text-align:center !important;
+    width: 100%;
     height:100%;
     margin: 0 0 0 0 !important
-
-}
-.navbar{
-    background: rgb(201, 98, 201) !important
-
 }
 
+#bg{
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    background-image: url("images/.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#main_content{
+    position: relative;
+    text-align: center;
+    color: white;
+    top:50vh;
+    /* make it your own.. doesn't necessarily have to ve text-align center */
+}
+
+.tint{
+    position: absolute;
+    width: 100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.75)
+    /* hover over the 0,0,0 to choose color and transparency (the last value=how transparent the background will be */
+
+}
+#navbar{
+    background: rgb(201, 98, 201) !important;
+}
+/* 
 #navbar a{
     text-decoration: none; 
-}
+} */
 
 h1{
-    color:rgb(255, 255, 255)
+    color:rgb(0, 0, 0)
 }
 
 
@@ -54,4 +79,8 @@ CSS=cascading style sheet
 
 /* "images/____.jpg" --> Choose your image from the image folder in the left margins */
 
-/* A STUDENT CAN HAVE MULTIPLE CLASSES, BUT A STUDENT CAN ONLY HAVE 1 ID */
+/* A STUDENT CAN HAVE MULTIPLE CLASSES, BUT A STUDENT CAN ONLY HAVE ONE ID */
+
+/* bootstrap navbar: bg-dark or navbar-dark controls whether there's a background color behind the navbar */
+
+/* Creating a Hero (background for home page):navbar */
