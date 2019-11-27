@@ -36,8 +36,14 @@ html,body{
     /* hover over the 0,0,0 to choose color and transparency (the last value=how transparent the background will be */
 
 }
-#navbar{
-    background: rgb(201, 98, 201) !important;
+.navbar- expand-sm .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.carousel-item img, .carousel-inner, .carousel{
+    width: 80vh;
+    height: 100vh;
 }
 /* 
 #navbar a{
